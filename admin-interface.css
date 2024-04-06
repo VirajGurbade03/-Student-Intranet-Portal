@@ -1,0 +1,285 @@
+.admin-interface-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  backdrop-filter: blur(34px);
+  width: 1728px;
+  height: 1117px;
+}
+.login5 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 486px;
+  left: 421px;
+  font-size: 35.77px;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 120px;
+  height: 51px;
+}
+.admin-interface-item {
+  position: absolute;
+  top: 0;
+  left: -53px;
+  border-radius: var(--br-16xl);
+  background-color: var(--color-blueviolet);
+  width: 385px;
+  height: 1117px;
+}
+.admin-interface-inner {
+  position: absolute;
+  top: 32px;
+  left: 88px;
+  width: 152px;
+  height: 152px;
+}
+.director-dashboard3,
+.hod3,
+.profile4,
+.student4,
+.viraj-gurbade4 {
+  position: absolute;
+  top: 201px;
+  left: 50px;
+  font-size: 35.77px;
+  display: inline-block;
+  width: 238px;
+  height: 55px;
+}
+.director-dashboard3,
+.hod3,
+.profile4,
+.student4 {
+  top: 374px;
+  left: 34px;
+  font-size: 24.96px;
+  height: 38.39px;
+}
+.hod3,
+.profile4,
+.student4 {
+  top: 300px;
+  cursor: pointer;
+}
+.hod3,
+.student4 {
+  top: 448px;
+}
+.student4 {
+  top: 522px;
+  left: 33px;
+}
+.admin-interface-child1,
+.admin-interface-child2,
+.admin-interface-child3,
+.admin-interface-child4,
+.admin-interface-child5,
+.admin-interface-child6 {
+  position: absolute;
+  top: 51px;
+  left: 367px;
+  border-radius: var(--br-3xl);
+  background-color: var(--color-blueviolet);
+  width: 359px;
+  height: 107px;
+}
+.admin-interface-child2,
+.admin-interface-child3,
+.admin-interface-child4,
+.admin-interface-child5,
+.admin-interface-child6 {
+  left: 847px;
+}
+.admin-interface-child3,
+.admin-interface-child4,
+.admin-interface-child5,
+.admin-interface-child6 {
+  top: 335px;
+  height: 108px;
+}
+.admin-interface-child4,
+.admin-interface-child5,
+.admin-interface-child6 {
+  top: 477px;
+}
+.admin-interface-child5,
+.admin-interface-child6 {
+  top: 620px;
+  height: 107px;
+}
+.admin-interface-child6 {
+  top: 193px;
+}
+.admin-interface-child10,
+.admin-interface-child11,
+.admin-interface-child7,
+.admin-interface-child8,
+.admin-interface-child9 {
+  position: absolute;
+  top: 193px;
+  left: 367px;
+  border-radius: var(--br-3xl);
+  background-color: var(--color-blueviolet);
+  width: 359px;
+  height: 107px;
+}
+.admin-interface-child10,
+.admin-interface-child11,
+.admin-interface-child8,
+.admin-interface-child9 {
+  top: 335px;
+  height: 108px;
+}
+.admin-interface-child10,
+.admin-interface-child11,
+.admin-interface-child9 {
+  top: 477px;
+}
+.admin-interface-child10,
+.admin-interface-child11 {
+  top: 620px;
+  height: 107px;
+}
+.admin-interface-child11 {
+  top: 762px;
+}
+.all-monthly-attendance,
+.all-staff-detail,
+.view-faculty-cv {
+  position: absolute;
+  top: 85px;
+  left: 395px;
+  font-family: var(--font-dm-sans);
+  display: inline-block;
+  width: 202px;
+  height: 55px;
+}
+.all-monthly-attendance,
+.all-staff-detail {
+  top: 81px;
+  left: 877px;
+}
+.all-monthly-attendance {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 360px;
+  font-size: var(--font-size-7xl);
+  color: var(--color-white);
+  text-align: left;
+  width: 241px;
+}
+.daily-hr,
+.faculty-pending-lectures,
+.monthly-attendance-category {
+  position: absolute;
+  left: 878px;
+  font-family: var(--font-dm-sans);
+  display: inline-block;
+  height: 55px;
+}
+.monthly-attendance-category {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 496px;
+  font-size: var(--font-size-7xl);
+  color: var(--color-white);
+  text-align: left;
+  width: 306px;
+}
+.daily-hr,
+.faculty-pending-lectures {
+  top: 638px;
+  width: 241px;
+}
+.faculty-pending-lectures {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 214px;
+  left: 877px;
+  font-size: var(--font-size-7xl);
+  color: var(--color-white);
+  text-align: left;
+}
+.faculty-load {
+  top: 226px;
+  left: 402px;
+  width: 202px;
+}
+.faculty-load,
+.feedback,
+.leave-management,
+.suggestion-for-assessment {
+  position: absolute;
+  font-family: var(--font-dm-sans);
+  display: inline-block;
+  height: 55px;
+}
+.leave-management {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 355px;
+  left: 403px;
+  font-size: var(--font-size-7xl);
+  color: var(--color-white);
+  text-align: left;
+  width: 202px;
+}
+.feedback,
+.suggestion-for-assessment {
+  left: 395px;
+  width: 237px;
+}
+.suggestion-for-assessment {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 497px;
+  font-size: var(--font-size-7xl);
+  color: var(--color-white);
+  text-align: left;
+}
+.feedback {
+  top: 652px;
+}
+.admin-interface,
+.faculty-feedback {
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--color-white);
+}
+.faculty-feedback {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 794px;
+  left: 395px;
+  font-family: var(--font-dm-sans);
+  display: inline-block;
+  width: 237px;
+  height: 55px;
+}
+.admin-interface {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1117px;
+  overflow: hidden;
+  font-family: var(--font-inter);
+}

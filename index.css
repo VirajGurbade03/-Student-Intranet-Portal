@@ -1,0 +1,206 @@
+.datta-meghe-institute {
+  margin: 0;
+}
+.datta-meghe-institute-container {
+  position: absolute;
+  top: 47px;
+  left: 201px;
+  font-family: var(--font-dm-sans);
+  display: inline-block;
+  width: 1034.78px;
+  height: 119px;
+}
+.uni-logo-removebg-preview-1-icon {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  width: 175px;
+  height: 181px;
+  object-fit: cover;
+}
+.login-child {
+  position: absolute;
+  top: 29px;
+  left: 185.5px;
+  width: 4px;
+  height: 153px;
+}
+.login-inner,
+.login-item {
+  position: absolute;
+  top: 182px;
+  left: 1273px;
+  border-radius: var(--br-28xl);
+  width: 377px;
+  height: 551px;
+  object-fit: cover;
+}
+.login-inner {
+  top: 550px;
+  left: 910px;
+  width: 326px;
+  height: 469px;
+}
+.rectangle-div {
+  position: absolute;
+  top: 381px;
+  left: 240px;
+  border-radius: 56px;
+  background-color: rgba(30, 30, 30, 0.8);
+  width: 484px;
+  height: 674px;
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 193px;
+  height: 193px;
+}
+.feat-logo-removebg-preview-1-icon {
+  position: absolute;
+  top: 14.6px;
+  left: 16.22px;
+  width: 160.56px;
+  height: 163.81px;
+  object-fit: cover;
+}
+.ellipse-parent,
+.login1,
+.user {
+  position: absolute;
+  top: 273px;
+  left: 385px;
+  width: 193px;
+  height: 193px;
+}
+.login1,
+.user {
+  top: 486px;
+  left: 421px;
+  font-size: 35.77px;
+  color: var(--color-white);
+  display: inline-block;
+  width: 120px;
+  height: 51px;
+}
+.user {
+  top: 578px;
+  left: 454px;
+  font-size: 21.06px;
+  width: 53px;
+  height: 30.03px;
+}
+.frame-child {
+  border: 0;
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-16xl);
+  width: 379px;
+  height: 57px;
+}
+.email-id {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  display: inline-block;
+  width: 78px;
+  height: 28.62px;
+  opacity: 0.55;
+  mix-blend-mode: normal;
+}
+.rectangle-parent {
+  text-decoration: none;
+  position: absolute;
+  top: 661px;
+  left: 293px;
+  width: 379px;
+  height: 57px;
+  font-size: 20.19px;
+  color: inherit;
+}
+.frame-item {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 27.15px;
+  width: 203px;
+  height: 56px;
+}
+.login2,
+.rectangle-group {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.login2 {
+  font-family: var(--font-inter);
+  font-size: 20.19px;
+  top: 13px;
+  left: 77px;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 52px;
+  height: 29px;
+  opacity: 0.55;
+  mix-blend-mode: normal;
+}
+.rectangle-group {
+  cursor: pointer;
+  padding: 0;
+  top: 875px;
+  left: 380px;
+  width: 203px;
+  height: 56px;
+}
+.frame-input {
+  border: 0;
+  font-family: var(--font-inter);
+  font-size: 20.19px;
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  top: 747px;
+  left: 292px;
+  border-radius: var(--br-16xl);
+  width: 379px;
+  height: 57px;
+}
+.line-div {
+  position: absolute;
+  top: 604.5px;
+  left: 435.5px;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 90px;
+  height: 1px;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 202px;
+  left: 852px;
+  border-radius: var(--br-28xl);
+  width: 384px;
+  height: 305px;
+  object-fit: cover;
+}
+.login {
+  position: relative;
+  width: 100%;
+  height: 1117px;
+  overflow: hidden;
+  background-image: url(./public/login@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: 31.04px;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

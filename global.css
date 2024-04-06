@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-dm-sans: "DM Sans";
+
+  /* font sizes */
+  --font-size-xl-2: 20.2px;
+  --font-size-16xl-8: 35.8px;
+  --font-size-7xl: 26px;
+  --font-size-6xl: 25px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gainsboro: #d9d9d9;
+  --color-black: #000;
+  --color-gray-100: rgba(255, 254, 254, 0.2);
+  --color-blueviolet: rgba(66, 63, 229, 0.9);
+
+  /* border radiuses */
+  --br-28xl: 47px;
+  --br-16xl: 35px;
+  --br-3xl: 22px;
+  --br-25xl: 44px;
+}

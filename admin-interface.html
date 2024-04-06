@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./admin-interface.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="admin-interface">
+      <div class="admin-interface-child"></div>
+      <button class="login5">LOGIN</button>
+      <div class="admin-interface-item"></div>
+      <img class="admin-interface-inner" alt="" src="./public/ellipse-3.svg" />
+
+      <div class="viraj-gurbade4">Viraj Gurbade</div>
+      <div class="director-dashboard3">Director Dashboard</div>
+      <div class="profile4" id="profileText">Profile</div>
+      <div class="hod3" id="hODText">HOD</div>
+      <div class="student4" id="studentText">Student</div>
+      <div class="admin-interface-child1"></div>
+      <div class="admin-interface-child2"></div>
+      <div class="admin-interface-child3"></div>
+      <div class="admin-interface-child4"></div>
+      <div class="admin-interface-child5"></div>
+      <div class="admin-interface-child6"></div>
+      <div class="admin-interface-child7"></div>
+      <div class="admin-interface-child8"></div>
+      <div class="admin-interface-child9"></div>
+      <div class="admin-interface-child10"></div>
+      <div class="admin-interface-child11"></div>
+      <div class="view-faculty-cv">View Faculty CV</div>
+      <div class="all-staff-detail">All staff Detail</div>
+      <button class="all-monthly-attendance">All Monthly Attendance</button>
+      <button class="monthly-attendance-category">
+        Monthly Attendance Category Wise
+      </button>
+      <div class="daily-hr">Daily Hr & Training Dept Attendance</div>
+      <button class="faculty-pending-lectures">
+        Faculty pending Lecture’s
+      </button>
+      <div class="faculty-load">Faculty Load</div>
+      <button class="leave-management">Leave management</button>
+      <button class="suggestion-for-assessment">
+        Suggestion for Assessment Form
+      </button>
+      <div class="feedback">Feedback</div>
+      <button class="faculty-feedback">Faculty Feedback</button>
+    </div>
+
+    <script>
+      var profileText = document.getElementById("profileText");
+      if (profileText) {
+        profileText.addEventListener("click", function (e) {
+          window.location.href = "./admin-profile.html";
+        });
+      }
+      
+      var hODText = document.getElementById("hODText");
+      if (hODText) {
+        hODText.addEventListener("click", function (e) {
+          window.location.href = "./hod-interface.html";
+        });
+      }
+      
+      var studentText = document.getElementById("studentText");
+      if (studentText) {
+        studentText.addEventListener("click", function (e) {
+          window.location.href = "./student-interface.html";
+        });
+      }
+      </script>
+  </body>
+</html>

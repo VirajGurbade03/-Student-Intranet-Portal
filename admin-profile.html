@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./admin-profile.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="admin-profile">
+      <div class="login3">LOGIN</div>
+      <div class="admin-profile-child"></div>
+      <img class="admin-profile-item" alt="" src="./public/ellipse-3.svg" />
+
+      <div class="viraj-gurbade2">Viraj Gurbade</div>
+      <div class="director-dashboard2" id="directorDashboardText">
+        Director Dashboard
+      </div>
+      <div class="profile2">Profile</div>
+      <div class="hod2" id="hODText">HOD</div>
+      <div class="student2" id="studentText">Student</div>
+    </div>
+
+    <script>
+      var directorDashboardText = document.getElementById("directorDashboardText");
+      if (directorDashboardText) {
+        directorDashboardText.addEventListener("click", function (e) {
+          window.location.href = "./admin-interface.html";
+        });
+      }
+      
+      var hODText = document.getElementById("hODText");
+      if (hODText) {
+        hODText.addEventListener("click", function (e) {
+          window.location.href = "./hod-interface.html";
+        });
+      }
+      
+      var studentText = document.getElementById("studentText");
+      if (studentText) {
+        studentText.addEventListener("click", function (e) {
+          window.location.href = "./student-interface.html";
+        });
+      }
+      </script>
+  </body>
+</html>

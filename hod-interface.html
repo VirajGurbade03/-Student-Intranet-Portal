@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./hod-interface.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="hod-interface">
+      <div class="hod-interface-child"></div>
+      <div class="hod-interface-item"></div>
+      <img class="hod-interface-inner" alt="" src="./public/ellipse-3.svg" />
+
+      <div class="viraj-gurbade1">Viraj Gurbade</div>
+      <div class="director-dashboard1">Director Dashboard</div>
+      <button class="profile1" id="profile">Profile</button>
+      <button class="hod1">HOD</button>
+      <button class="student1" id="student">Student</button>
+      <div class="hod-interface-child1"></div>
+      <div class="hod-interface-child2"></div>
+      <div class="hod-interface-child3"></div>
+      <div class="daily-hod-report">Daily HOD Report</div>
+      <div class="faculty">Faculty</div>
+      <div class="summary-month-wise">Summary Month wise Report</div>
+      <div class="online-marks">Online Marks</div>
+      <div class="hod-interface-child4"></div>
+    </div>
+
+    <script>
+      var profile = document.getElementById("profile");
+      if (profile) {
+        profile.addEventListener("click", function (e) {
+          window.location.href = "./admin-profile.html";
+        });
+      }
+      
+      var student = document.getElementById("student");
+      if (student) {
+        student.addEventListener("click", function (e) {
+          window.location.href = "./student-interface.html";
+        });
+      }
+      </script>
+  </body>
+</html>

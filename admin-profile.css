@@ -1,0 +1,73 @@
+.login3 {
+  position: absolute;
+  top: 486px;
+  left: 421px;
+  font-size: 35.77px;
+  display: inline-block;
+  width: 120px;
+  height: 51px;
+}
+.admin-profile-child {
+  position: absolute;
+  top: 0;
+  left: -53px;
+  border-radius: var(--br-16xl);
+  background-color: var(--color-blueviolet);
+  width: 385px;
+  height: 1117px;
+}
+.admin-profile-item,
+.viraj-gurbade2 {
+  position: absolute;
+  top: 32px;
+  left: 88px;
+  width: 152px;
+  height: 152px;
+}
+.viraj-gurbade2 {
+  top: 201px;
+  left: 50px;
+  font-size: 35.77px;
+  display: inline-block;
+  width: 238px;
+  height: 55px;
+}
+.director-dashboard2,
+.hod2,
+.profile2,
+.student2 {
+  position: absolute;
+  left: 34px;
+  display: inline-block;
+  width: 238px;
+  height: 38.39px;
+}
+.director-dashboard2 {
+  top: 374px;
+  cursor: pointer;
+}
+.hod2,
+.profile2,
+.student2 {
+  top: 300px;
+}
+.hod2,
+.student2 {
+  top: 448px;
+  cursor: pointer;
+}
+.student2 {
+  top: 522px;
+  left: 33px;
+}
+.admin-profile {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1117px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 24.96px;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

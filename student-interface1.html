@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./student-interface1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="student-interface1">
+      <div class="student-interface-child4"></div>
+      <div class="login6">LOGIN</div>
+      <div class="student-interface-child5"></div>
+      <img
+        class="student-interface-child6"
+        alt=""
+        src="./public/ellipse-3.svg"
+      />
+
+      <div class="viraj-gurbade5">Viraj Gurbade</div>
+      <div class="profile5" id="profileText">Profile</div>
+      <div class="compose">Compose</div>
+      <img
+        class="student-interface-child7"
+        alt=""
+        src="./public/ellipse-47.svg"
+      />
+
+      <img
+        class="file-duotone-line-icon"
+        alt=""
+        src="./public/file-duotone-line.svg"
+      />
+
+      <img
+        class="file-duotone-line-icon1"
+        alt=""
+        src="./public/file-duotone-line.svg"
+      />
+
+      <img
+        class="file-duotone-line-icon2"
+        alt=""
+        src="./public/file-duotone-line.svg"
+      />
+
+      <img
+        class="file-duotone-line-icon3"
+        alt=""
+        src="./public/file-duotone-line.svg"
+      />
+
+      <img
+        class="file-duotone-line-icon4"
+        alt=""
+        src="./public/file-duotone-line.svg"
+      />
+
+      <img
+        class="add-ring-duotone-icon"
+        alt=""
+        src="./public/add-ring-duotone.svg"
+        id="addRingDuotone"
+      />
+    </div>
+
+    <script>
+      var profileText = document.getElementById("profileText");
+      if (profileText) {
+        profileText.addEventListener("click", function (e) {
+          window.location.href = "./student-profile.html";
+        });
+      }
+      
+      var addRingDuotone = document.getElementById("addRingDuotone");
+      if (addRingDuotone) {
+        addRingDuotone.addEventListener("click", function (e) {
+          // Please sync "Student interface" to the project
+        });
+      }
+      </script>
+  </body>
+</html>
